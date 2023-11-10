@@ -1,4 +1,5 @@
 import { ReactComponent as Logo } from "../../assets/images/logo.svg";
+import "./Header.scss";
 
 const Header = () => {
   const menuItems = ["home", "shop", "about", "contact"] as const;
