@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 import "./Header.scss";
 
@@ -6,14 +7,14 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="logo">
+      <a className="logo" href="#">
         <Logo />
-      </div>
+      </a>
       <nav className="navigation">
         <ul>
-          {menuItems.map((item) => {
+          {menuItems.map((item, index) => {
             return (
-              <li className="navigation__item">
+              <li className="navigation__item" key={index}>
                 <a href="#">{item}</a>
               </li>
             );

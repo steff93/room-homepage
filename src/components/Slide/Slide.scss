@@ -1,0 +1,18 @@
+$b: ".slide";
+
+#{$b} {
+  display: flex;
+  flex-direction: column;
+
+  &-content {
+    display: flex;
+
+    &__image {
+      width: 60%;
+    }
+
+    &__info {
+      padding: 95px 80px;
+    }
+  }
+}
