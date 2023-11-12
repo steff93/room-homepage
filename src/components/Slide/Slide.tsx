@@ -16,7 +16,7 @@ const Slide = ({ title, imageSrc, content }: SlideProps) => {
           <p className="slide-content__text">{content}</p>
 
           <a className="slide-content__link" href="#section">
-            <span>Show Now</span>
+            <span>Shop Now</span>
             <ArrowIcon />
           </a>
         </div>
