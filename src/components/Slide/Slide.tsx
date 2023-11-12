@@ -1,7 +1,6 @@
-import "./Slide.scss";
-
 import { ReactComponent as ArrowIcon } from "../../assets/images/icon-arrow.svg";
-import { SlideProps } from "./slideTypes";
+import { SlideProps } from "../../types";
+import "./Slide.scss";
 
 const Slide = ({ title, imageSrc, content }: SlideProps) => {
   return (

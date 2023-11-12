@@ -1,5 +1,5 @@
 import slideImage1 from "../../assets/images/desktop-image-hero-1.jpg";
-import { SlideProps } from "../Slide/slideTypes";
+import { SlideProps } from "../../types";
 
 export const slideshowContent: SlideProps[] = [
   {
