@@ -5,7 +5,7 @@ const Slideshow = () => {
   return (
     <div className="slideshow-wrapper">
       {slideshowContent.map((slide, index) => {
-        return <Slide upper={slide.upper} footer={slide.footer} key={index} />;
+        return <Slide {...slide} key={index} />;
       })}
     </div>
   );
