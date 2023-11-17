@@ -1,0 +1,14 @@
+$b: ".footer";
+
+#{$b} {
+  display: flex;
+
+  &__text-content {
+    width: 40%;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -3,8 +3,13 @@
 .slideshow-wrapper {
   position: relative;
 
-  min-height: 70%;
-  max-height: 85%;
+  height: 70%;
+
+  .swiper,
+  .slide,
+  .slide-content {
+    height: 100%;
+  }
 }
 
 .slideshow-navigation {

@@ -36,6 +36,7 @@ $b: ".slide";
     &__image {
       width: 60%;
       flex-shrink: 0;
+      object-fit: cover;
     }
 
     &__info {
