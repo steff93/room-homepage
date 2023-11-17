@@ -1,0 +1,26 @@
+@import "../../styles-config.scss";
+
+.slideshow-wrapper {
+  position: relative;
+
+  min-height: 70%;
+  max-height: 85%;
+}
+
+.slideshow-navigation {
+  background: $black;
+
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  left: 60%;
+
+  display: flex;
+  justify-content: space-between;
+
+  &--next,
+  &--prev {
+    padding: 25px 30px;
+    cursor: pointer;
+  }
+}
