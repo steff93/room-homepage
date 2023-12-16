@@ -48,4 +48,15 @@ $b: ".footer";
       object-fit: cover;
     }
   }
+
+  @media (max-width: 767px) {
+    overflow: visible;
+    flex-direction: column;
+  }
+
+  &__text-content,
+  &__left-side,
+  &__right-side {
+    width: 100%;
+  }
 }

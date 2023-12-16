@@ -9,6 +9,12 @@
   position: absolute;
   z-index: 2;
   // width: 100%;
+
+  @media (max-width: 767px) {
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+  }
 }
 
 .logo {

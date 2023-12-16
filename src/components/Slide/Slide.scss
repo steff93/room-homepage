@@ -43,4 +43,15 @@ $b: ".slide";
       padding: 95px 90px;
     }
   }
+
+  @media (max-width: 767px) {
+    &-content {
+      flex-direction: column;
+
+      &__image {
+        width: 100%;
+        height: 50%;
+      }
+    }
+  }
 }
