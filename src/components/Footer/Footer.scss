@@ -1,7 +1,11 @@
+@import "../../styles-config.scss";
+
 $b: ".footer";
 
 #{$b} {
   display: flex;
+  flex: 1;
+  overflow: hidden;
 
   &__text-content {
     width: 40%;
@@ -10,5 +14,31 @@ $b: ".footer";
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    #{$b}-title,
+    #{$b}-description {
+      padding: 0 8%;
+    }
+
+    #{$b}-title {
+      margin-top: 0;
+    }
+
+    #{$b}-description {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.5em;
+      color: $darkGray;
+    }
+  }
+
+  &__left-side,
+  &__right-side {
+    width: 30%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
   }
 }
