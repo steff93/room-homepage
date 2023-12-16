@@ -52,11 +52,11 @@ $b: ".footer";
   @media (max-width: 767px) {
     overflow: visible;
     flex-direction: column;
-  }
 
-  &__text-content,
-  &__left-side,
-  &__right-side {
-    width: 100%;
+    &__text-content,
+    &__left-side,
+    &__right-side {
+      width: 100%;
+    }
   }
 }
