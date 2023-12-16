@@ -27,5 +27,11 @@
   &--prev {
     padding: 25px 30px;
     cursor: pointer;
+
+    transition: all 0.5s;
+
+    &:hover {
+      background: $veryDarkGray;
+    }
   }
 }
