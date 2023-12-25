@@ -53,6 +53,10 @@ $b: ".footer";
     overflow: visible;
     flex-direction: column;
 
+    &__text-content {
+      padding: 45px 0;
+    }
+
     &__text-content,
     &__left-side,
     &__right-side {
