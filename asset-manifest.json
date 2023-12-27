@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/room-homepage/static/css/main.8e62bdec.css",
+    "main.js": "/room-homepage/static/js/main.076c9390.js",
+    "static/media/LeagueSpartan-Black.ttf": "/room-homepage/static/media/LeagueSpartan-Black.d4303c11df0dad0324cf.ttf",
+    "static/media/LeagueSpartan-Bold.ttf": "/room-homepage/static/media/LeagueSpartan-Bold.c311dbd01e80ebe50942.ttf",
+    "static/media/LeagueSpartan-SemiBold.ttf": "/room-homepage/static/media/LeagueSpartan-SemiBold.eb71c3a8fa3a8659a3f7.ttf",
+    "static/media/LeagueSpartan-Medium.ttf": "/room-homepage/static/media/LeagueSpartan-Medium.a8c3b9360d69edbcf13e.ttf",
+    "static/media/LeagueSpartan-Regular.ttf": "/room-homepage/static/media/LeagueSpartan-Regular.09958bb07a94a6a4f1bb.ttf",
+    "static/media/LeagueSpartan-Light.ttf": "/room-homepage/static/media/LeagueSpartan-Light.354c1d0b29bf33854f9c.ttf",
+    "static/media/desktop-image-hero-1.jpg": "/room-homepage/static/media/desktop-image-hero-1.91901d0d47ea68db9434.jpg",
+    "static/media/desktop-image-hero-3.jpg": "/room-homepage/static/media/desktop-image-hero-3.05fd679aa0d31e01c176.jpg",
+    "static/media/desktop-image-hero-2.jpg": "/room-homepage/static/media/desktop-image-hero-2.9d35405672f4fca67945.jpg",
+    "static/media/image-about-dark.jpg": "/room-homepage/static/media/image-about-dark.329bbc446c27ddf69d0f.jpg",
+    "static/media/logo.svg": "/room-homepage/static/media/logo.8fad054264a8e979d2bbe8ac73867178.svg",
+    "index.html": "/room-homepage/index.html",
+    "static/media/icon-close.svg": "/room-homepage/static/media/icon-close.3e88bd6e1dd859233d65f8222e8ccb74.svg",
+    "static/media/icon-arrow.svg": "/room-homepage/static/media/icon-arrow.84087786c5e572d7f27f2672642badd5.svg",
+    "static/media/icon-hamburger.svg": "/room-homepage/static/media/icon-hamburger.dc022bac537a273572af58dec556ed7e.svg",
+    "static/media/icon-angle-left.svg": "/room-homepage/static/media/icon-angle-left.d53877dfd9c6774a68749ad0239b4ce1.svg",
+    "static/media/icon-angle-right.svg": "/room-homepage/static/media/icon-angle-right.0ed3f81fbd14b3bd61d875b7df144e4c.svg",
+    "main.8e62bdec.css.map": "/room-homepage/static/css/main.8e62bdec.css.map",
+    "main.076c9390.js.map": "/room-homepage/static/js/main.076c9390.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e62bdec.css",
+    "static/js/main.076c9390.js"
+  ]
+}
