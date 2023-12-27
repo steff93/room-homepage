@@ -1,0 +1,11 @@
+@import "./styles-config.scss";
+@import "./fonts.css";
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  // make sure we have minimum height available on window height resize
+  min-height: 800px;
+}
