@@ -68,4 +68,12 @@ $b: ".slide";
       }
     }
   }
+
+  @media (max-width: 767px) and (orientation: landscape) {
+    &-content {
+      &__image {
+        height: 65vh;
+      }
+    }
+  }
 }
