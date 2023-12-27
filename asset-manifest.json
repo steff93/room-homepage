@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/room-homepage/static/css/main.acc1ae34.css",
+    "main.css": "/room-homepage/static/css/main.8e62bdec.css",
     "main.js": "/room-homepage/static/js/main.076c9390.js",
     "static/media/LeagueSpartan-Black.ttf": "/room-homepage/static/media/LeagueSpartan-Black.d4303c11df0dad0324cf.ttf",
     "static/media/LeagueSpartan-Bold.ttf": "/room-homepage/static/media/LeagueSpartan-Bold.c311dbd01e80ebe50942.ttf",
@@ -19,11 +19,11 @@
     "static/media/icon-hamburger.svg": "/room-homepage/static/media/icon-hamburger.dc022bac537a273572af58dec556ed7e.svg",
     "static/media/icon-angle-left.svg": "/room-homepage/static/media/icon-angle-left.d53877dfd9c6774a68749ad0239b4ce1.svg",
     "static/media/icon-angle-right.svg": "/room-homepage/static/media/icon-angle-right.0ed3f81fbd14b3bd61d875b7df144e4c.svg",
-    "main.acc1ae34.css.map": "/room-homepage/static/css/main.acc1ae34.css.map",
+    "main.8e62bdec.css.map": "/room-homepage/static/css/main.8e62bdec.css.map",
     "main.076c9390.js.map": "/room-homepage/static/js/main.076c9390.js.map"
   },
   "entrypoints": [
-    "static/css/main.acc1ae34.css",
+    "static/css/main.8e62bdec.css",
     "static/js/main.076c9390.js"
   ]
 }
