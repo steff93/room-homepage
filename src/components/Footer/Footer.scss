@@ -60,6 +60,7 @@ $b: ".footer";
     &__text-content,
     &__left-side,
     &__right-side {
+      display: flex;
       width: 100%;
     }
   }
