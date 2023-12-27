@@ -51,16 +51,15 @@ $b: ".slideshow";
     }
 
     &-navigation {
-      bottom: 50%;
+      bottom: auto;
       right: 0;
       left: auto;
+      top: calc(50vh - 77.5px);
     }
   }
 
   @media (max-width: 767px) and (orientation: landscape) {
     &-navigation {
-      bottom: auto;
-
       top: calc(65vh - 77.5px);
     }
   }
