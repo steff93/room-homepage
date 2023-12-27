@@ -41,7 +41,9 @@ $b: ".slideshow";
 
   @media (max-width: 767px) {
     &-wrapper {
-      height: 100dvh;
+      // height: 100dvh;
+      min-height: 100vh;
+      height: auto;
 
       .swiper {
         height: inherit;
