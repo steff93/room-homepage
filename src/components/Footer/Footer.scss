@@ -1,3 +1,4 @@
+@import "../../abstracts/mixins";
 @import "../../styles-config.scss";
 
 $b: ".footer";
@@ -49,7 +50,7 @@ $b: ".footer";
     }
   }
 
-  @media (max-width: 767px) {
+  @include phone-only {
     overflow: visible;
     flex-direction: column;
 

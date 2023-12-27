@@ -1,3 +1,4 @@
+@import "../../abstracts/mixins";
 @import "../../styles-config.scss";
 
 $b: ".slideshow";
@@ -39,7 +40,7 @@ $b: ".slideshow";
     }
   }
 
-  @media (max-width: 767px) {
+  @include phone-only {
     &-wrapper {
       // height: 100dvh;
       min-height: 100vh;
@@ -58,7 +59,7 @@ $b: ".slideshow";
     }
   }
 
-  @media (max-width: 767px) and (orientation: landscape) {
+  @include phone-landscape {
     &-navigation {
       top: calc(65vh - 77.5px);
     }

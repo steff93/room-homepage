@@ -1,3 +1,4 @@
+@import "../../abstracts/mixins";
 @import "../../styles-config.scss";
 
 .header {
@@ -11,7 +12,7 @@
     display: none;
   }
 
-  @media (max-width: 767px) {
+  @include phone-only {
     box-sizing: border-box;
     max-width: 100%;
     width: 100%;

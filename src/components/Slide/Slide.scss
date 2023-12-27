@@ -1,3 +1,4 @@
+@import "../../abstracts/mixins";
 @import "../../styles-config.scss";
 
 $b: ".slide";
@@ -44,7 +45,7 @@ $b: ".slide";
     }
   }
 
-  @media (max-width: 767px) {
+  @include phone-only {
     &-content {
       flex-direction: column;
 
@@ -69,7 +70,7 @@ $b: ".slide";
     }
   }
 
-  @media (max-width: 767px) and (orientation: landscape) {
+  @include phone-landscape {
     &-content {
       &__image {
         height: 65vh;
