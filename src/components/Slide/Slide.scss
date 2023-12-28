@@ -77,4 +77,15 @@ $b: ".slide";
       }
     }
   }
+
+  @include tablet {
+    &-content {
+      &__image {
+        width: 55%;
+      }
+      &__info {
+        padding: 25px 60px;
+      }
+    }
+  }
 }

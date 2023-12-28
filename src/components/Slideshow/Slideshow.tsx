@@ -19,6 +19,7 @@ const Slideshow = () => {
         slidesPerView={1}
         modules={[Navigation]}
         loop={true}
+        autoHeight={true}
         navigation={{
           nextEl: ".slideshow-navigation--next",
           prevEl: ".slideshow-navigation--prev",

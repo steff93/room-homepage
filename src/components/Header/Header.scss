@@ -65,6 +65,18 @@
       margin: auto;
     }
   }
+
+  @include tablet {
+    .navigation {
+      ul {
+        padding-left: 45px;
+      }
+
+      li:not(:last-child) {
+        margin-right: 40px;
+      }
+    }
+  }
 }
 
 .logo {

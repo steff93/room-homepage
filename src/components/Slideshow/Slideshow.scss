@@ -64,4 +64,10 @@ $b: ".slideshow";
       top: calc(65vh - 77.5px);
     }
   }
+
+  @include tablet {
+    &-navigation {
+      left: 55%;
+    }
+  }
 }
